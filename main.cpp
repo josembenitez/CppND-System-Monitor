@@ -93,6 +93,7 @@ void printMain(SysInfo sys,ProcessContainer procs){
     }
 	endwin();
 }
+
 int main( int   argc, char *argv[] )
 {
  //Object which contains list of current processes, Container for Process Class
@@ -100,6 +101,6 @@ int main( int   argc, char *argv[] )
 // Object which containts relevant methods and attributes regarding system details
     SysInfo sys;
     //std::string s = writeToConsole(sys);
-    printMain(sys,procs);
+    printMain(sys, procs);
     return 0;
 }

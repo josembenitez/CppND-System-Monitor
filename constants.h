@@ -2,7 +2,7 @@
 using namespace std;
 
 enum CPUStates{
-	S_USER = 1,
+	S_USER = 0,
 	S_NICE,
 	S_SYSTEM,
 	S_IDLE,
